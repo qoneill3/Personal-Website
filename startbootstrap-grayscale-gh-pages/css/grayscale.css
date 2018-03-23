@@ -186,6 +186,8 @@ a:focus, a:hover {
 }
 
 .content-section {
+  background-color: #517784;
+  color: white;
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -200,20 +202,63 @@ a:focus, a:hover {
   color: white;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
   background-color: black;
+  justify-content: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.download-title {
+  position: absolute;
+  text-decoration: underline;
+}
+
 .skills-section {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #517784;
+  display: inline-block;
+  width: 100%;
+}
+
+.icon-title {
+  color: white;
 }
 
 .work-section {
   color: black;
-  background-color: grey;
+  background: url("../img/work-title-bg.jpeg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 350px;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+}
+
+.work-section #work-title-header {
+  position: absolulte;
+  top: 170px;
+  text-decoration: underline;
+}
+
+.work-content-section {
+  color: white;
+  background: url("../img/dog-background.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
+}
+
+.work-content-section #content-header {
+  top: 100px;
+}
+
+.work-content-section #content-row {
+  margin-top: 150px;
 }
 
 #map {

@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Quinn O'Neill">
 
     <title>Quinn O'Neill</title>
 
@@ -20,6 +20,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="vendor/font-awesome/js/fontawesome-all.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 
   </head>
 
@@ -42,7 +47,7 @@
               <a class="nav-link js-scroll-trigger" href="#download">What I Do</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#work">Work</a>
+              <a class="nav-link js-scroll-trigger" href="#work">Dog Check-In</a>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -59,6 +64,7 @@
             <div class="col-lg-8 mx-auto">
               <img id="logo" src="./img/qbeats-logo.png">
               <h1 class="brand-heading">Quinn O'Neill</h1>
+              <hr class="white">
               <p class="intro-text">Full Stack Web Developer</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
@@ -78,8 +84,7 @@
           </div>  
           <div class="col-md-5 mx-auto">
             <h2>Hi, I'm Quinn O'Neill</h2>
-            <p>I'm a Full-Stack Web Developer and Front-End Engineer. Proficient in numerous frameworks and technologies. Ambituous and Driven. </p>
-            <p>I'm lookin to collab on some real shit. lets get this money money.</p>
+            <p>I'm a Full-Stack Web Developer and Front-End Engineer. Adept in numerous frameworks and technologies. Ambituous and Driven. </p>
           </div>
         </div>
       </div>
@@ -96,26 +101,93 @@
       </div>
     </section>
 
-    <!--Skilllllls-->
+    <!--Skills Section-->
     <section id="skills" class="skills-section content-section text-center">
-      <div class="container">
+      <div class="container-fluid">
         <div class="col-lg-8 mx-auto">
-          <h2>What I Do</h2>
-          <P> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, rerum. Ipsam amet placeat ipsa adipisci neque deleniti debitis nesciunt! A facere, maxime nobis explicabo eaque vero! Molestiae, sit ut explicabo.</P>
+          <h1>What I Do</h1>
+          <h4>A list of technoligies I enjoy using.</h4>
+        </div>
+        
+        <!--icons-->
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fab fa-js fa-5x" style="color:white;text-shadow:1px 1px 1px black"></i>
+            <h3 class="icon-title">Javascript</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fab fa-css3-alt fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">CSS3</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fab fa-html5 fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">HTML5</h3>
+          </div>   
+          <div class="col-lg-4">
+            <i class="fab fa-github-square fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">Git/Github</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fab fa-gulp fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">Gulp</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fab fa-node-js fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">Node.js</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fab fa-php fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">PHP</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fab fa-wordpress fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">Wordpress</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fab fa-react fa-5x" style="color:white;"></i>
+            <h3 class="icon-title">React</h3>      
+
         </div>
       </div>   
     </section>
 
-    <section id="work" class="work-section content-section text-center">
+    <!--work title section-->
+    <section id="work-title" class="work-section text-center">
       <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>My Work</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptatibus hic quis unde, dolores dolor ipsam quam optio! Laudantium voluptas ad alias. Ducimus temporibus est dolores iste harum culpa id.
-          </p>
+        <div id="work-title-header" class="col-lg-8 mx-auto">
+          <h1>My Work</h1>
         </div>
       </div>
+    </section>
+
+    <!--display section-->
+    <section id="work" class="work-content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div id="content-header" class="col-lg-8 mx-auto">
+            <h1>Dog Check-In</h1>
+          </div>
+        </div>
+        <div id="content-row" class="row"> 
+          <div class="col-md-6 mx-auto">
+            <img class="img-fluid" src="./img/screen-bg.png">
+          </div>
+          <div id="dog-summary" class="col-mg-6 mx-auto">
+            <h4>Dog Park Location and Check-In App</h4>
+            <hr>
+            <a href="https://dogcheckin.herokuapp.com/map" class="btn btn-default btn-lg" target="_blank">See More!</a>
+          </div>  
+        </div>       
+      </div>
     </section>      
+
+    <!--<section id="carousel" class="carousel-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h1>yeeeuh</h1>
+        </div>
+      </div>
+    </section> -->       
 
     <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
@@ -125,22 +197,22 @@
             <h2>Contact Me</h2>
             <p>Contact me about project ideas, job opportunities, or website consultation.</p>
             <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
+              <!--<li class="list-inline-item">
                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
                   <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
+                  <span class="network-name"></span>
                 </a>
-              </li>
+              </li>-->
               <li class="list-inline-item">
-                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
+                <a href="https://github.com/qoneill3" target="_blank" class="btn btn-default btn-lg">
+                  <i class="fab fa-github-square"></i>
                   <span class="network-name">Github</span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                  <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
+                <a href="https://www.linkedin.com/in/quinn-o-neill-90440567/" class="btn btn-default btn-lg">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="network-name">LinkedIn</span>
                 </a>
               </li>
             </ul>
@@ -150,7 +222,7 @@
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+    <!--<div id="map"></div>-->
 
     <!-- Footer -->
     <footer>
