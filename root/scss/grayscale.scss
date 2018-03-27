@@ -276,6 +276,20 @@ a {
   
 }
 
+.jelly-section {
+  color: white;
+  background: url('../img/spongebob-bg.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
+
+  #content-header1 {
+    top: 100px;
+  }
+}  
+
 
 
 

@@ -260,7 +260,7 @@ a:focus, a:hover {
 }
 
 .jelly-section {
-  color: black;
+  color: white;
   background: url("../img/spongebob-bg.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -271,27 +271,6 @@ a:focus, a:hover {
 
 .jelly-section #content-header1 {
   top: 100px;
-}
-
-.jelly-section #content-row1 {
-  margin-top: 325px;
-}
-
-.jelly-section #jelly-summary {
-  float: left;
-}
-
-.jelly-section #jelly-screen {
-  float: right;
-}
-
-.col-lg-5 {
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
-.img-fluid {
-  border-radius: 5px;
 }
 
 #map {
