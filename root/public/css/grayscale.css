@@ -275,6 +275,8 @@ a:focus, a:hover {
 
 .jelly-section #content-row1 {
   margin-top: 325px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .jelly-section #jelly-summary {
