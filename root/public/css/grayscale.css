@@ -248,7 +248,7 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 750px;
+  height: 100%;
 }
 
 .work-content-section #content-header {
@@ -266,7 +266,7 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 750px;
+  height: 100%;
 }
 
 .jelly-section #content-header1 {
