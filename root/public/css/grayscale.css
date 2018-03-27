@@ -274,9 +274,10 @@ a:focus, a:hover {
 }
 
 .jelly-section #content-row1 {
-  margin-top: 325px;
+  margin-top: 400px;
   padding-left: 50px;
   padding-right: 50px;
+  height: 200px;
 }
 
 .jelly-section #jelly-summary {
