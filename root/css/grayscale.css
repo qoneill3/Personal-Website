@@ -260,7 +260,6 @@ a:focus, a:hover {
 }
 
 .jelly-section {
-  color: white;
   background: url("../img/spongebob-bg.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -273,7 +272,7 @@ a:focus, a:hover {
   top: 100px;
 }
 
-#jelly-summary {
+.jelly-section #jelly-summary {
   color: white;
 }
 
