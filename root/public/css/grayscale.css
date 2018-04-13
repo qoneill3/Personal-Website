@@ -233,7 +233,7 @@ a:focus, a:hover {
   -o-background-size: cover;
   background-size: cover;
   height: 350px;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #B8B8B8;
 }
 
 .work-section #work-title-header {
